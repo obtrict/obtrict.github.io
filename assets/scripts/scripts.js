@@ -9,19 +9,19 @@ var typewriter = new Typewriter(app, {
     deleteSpeed:5
 });
 
-typewriter.typeString('hey there!')
+typewriter.typeString('nice to see you!')
     .pauseFor(1000)
     .deleteAll()
     .pauseFor(500)
-    .typeString('nice to meet you.')
+    .typeString('how have you been.')
     .pauseFor(1000)
     .deleteAll()
     .pauseFor(500)
-    .typeString("my name is christine.")
+    .typeString("my name is jorge.")
     .pauseFor(1000)
     .deleteAll()
     .pauseFor(500)
-    .typeString("i'm a student at uc berkeley (go bears!).")
+    .typeString("i'm a student at uc davis (go aggies!).")
     .pauseFor(1000)
     .deleteAll()
     .pauseFor(500)
